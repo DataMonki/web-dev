@@ -1,0 +1,82 @@
+class = container (this is a fixed width)
+scale max-width : 
+csmall < 576px, 
+small >=540px, 
+medium >= 786px. 
+large >=992px 
+xlarge >=1200px
+
+class = container-fluid (this is responsive)
+will always occupy 100% of the device!!
+
+-Bootstrap Grid (just row and columns)
+-Desing layout, templates of the website
+-boostrap grid allows upto 12 columns in a row
+BS-grid supports: xs sm md lg xl
+ col-3
+ col-2
+ col-4 
+
+ col-sm-6
+
+
+
+    HTML CSS 
+
+    Result
+    Skip Results Iframe
+
+EDIT ON
+
+<header>
+  <h2>CSS Grid Layout Example</h2>
+</header>
+
+<aside>
+.sidebar
+</aside>
+
+<main>
+<article>
+    <span>1</span>
+</article>
+<article>
+    <span>2</span>
+</article>
+<article>
+    <span>3</span>
+</article>
+<article>
+    <span>4</span>
+</article>
+<article>
+    <span>5</span>
+</article>
+<article>
+    <span>6</span>
+</article>
+<article>
+    <span>7</span>
+</article>
+<article>
+    <span>8</span>
+</article>
+<article>
+    <span>9</span>
+</article>
+<article>
+    <span>10</span>
+</article>
+<article>
+    <span>11</span>
+</article>
+</main>
+
+<footer>
+Copyright 2018
+</footer>
+
+
+
+
+
