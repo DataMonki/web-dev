@@ -1,10 +1,10 @@
 .alert{
-    height:10%
+    height:184px;
+    
 }
 
-header{
 
-}
+
 .text-typing {
     margin:0px;
     white-space:nowrap;
@@ -25,6 +25,21 @@ header{
     }
   }
 
+  /*.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  }*/
+
+  .rainbow-text {
+    background-image: linear-gradient(to left, black, rgba(36, 138, 36, 0.794), rgb(26, 95, 26));   -webkit-background-clip: text;
+    color: transparent;
+    
+  }
+
+  #font-style{
+    font-family: comic;
+    font-weight: 200;
+
+  }
 
 .nav-item {
     font-weight:900;
@@ -127,6 +142,8 @@ div.circle-avatar{
         border-radius: 50%;
         width: 250px;
         height: auto;
+        max-height: 250px;
+        max-width:400px;
     }
     
     #referral{
