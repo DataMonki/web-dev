@@ -1,3 +1,31 @@
+.alert{
+    height:10%
+}
+
+header{
+
+}
+.text-typing {
+    margin:0px;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:typing 4s steps(22,end) forwards,
+              blink 1s infinite;
+  }
+  @keyframes typing {
+    0% { width:0% }
+    100% { width:100% }
+  }
+  @keyframes blink {
+    0%,100% {
+      border-right:2px solid transparent;
+    }
+    50% {
+      border-right:2px solid #222;
+    }
+  }
+
+
 .nav-item {
     font-weight:900;
     font-size:medium;
@@ -97,8 +125,19 @@ div.circle-avatar{
     {
         /*<img class="img-responsive circle-avatar" src="http://placekitten.com/g/200/200" />*/
         border-radius: 50%;
-        width: 200px;
+        width: 250px;
         height: auto;
     }
     
+    #referral{
+        font-weight:900;
+        font-size:x-large;
 
+
+    }
+
+    .navbar {
+        -webkit-box-shadow: 0 8px 6px -6px #999;
+        -moz-box-shadow: 0 8px 6px -6px #999;
+        box-shadow: 0 8px 6px -6px #999;
+    }
