@@ -3,7 +3,9 @@
     
 }
 
-
+#backimg{
+    background-image: url('images/BBcharity_logo_empty.png');
+}
 
 .text-typing {
     margin:0px;
