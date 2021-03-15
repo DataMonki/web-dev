@@ -1,10 +1,14 @@
 .alert{
     height:184px;
     
+    
 }
 
-#backimg{
-    background-image: url('images/BBcharity_logo_empty.png');
+.box1{
+    
+    background-color: rgb(255,48,25); // Old browsers
+@include filter-gradient(#ff3019, #cf0404, vertical);
+
 }
 
 .text-typing {
@@ -12,7 +16,7 @@
     white-space:nowrap;
     overflow:hidden;
     animation:typing 4s steps(22,end) forwards,
-              blink 1s infinite;
+              blink 1s ;
   }
   @keyframes typing {
     0% { width:0% }
@@ -32,14 +36,14 @@
   }*/
 
   .rainbow-text {
-    background-image: linear-gradient(to left, black, rgba(36, 138, 36, 0.794), rgb(26, 95, 26));   -webkit-background-clip: text;
+    background-image: linear-gradient(to left, black, rgba(23, 194, 23, 0.794), rgb(7, 73, 7));   -webkit-background-clip: text;
     color: transparent;
     
   }
 
   #font-style{
     font-family: comic;
-    font-weight: 200;
+    font-weight:bold;
 
   }
 
@@ -63,7 +67,15 @@
 }
 
 header, footer.container-fluid{
-    background-color:#dc3545;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+        -moz-box-shadow: 0 8px 6px -6px #999;
+        box-shadow: 0 8px 6px -6px #999;
+   
+    background-color: rgb(255,48,25); // Old browsers
+@include filter-gradient(#ff3019, #cf0404, vertical);
+
+
+
 }
 
 section > p.text-center {
@@ -85,7 +97,9 @@ a {
 
 #social{
     font-size: 60px; 
-    color:#f5f5f5; 
+    color:#f5f5f5;
+    background-color: #ff3019; // Old browsers
+@include filter-gradient(#ff3019, #cf0404, vertical); 
 } 
 
 #social-1{
@@ -109,34 +123,7 @@ address, #tel, #email{
     font-weight: bolder;
 }
 
-div.circle-avatar{
-    /*<div class="circle-avatar" style="background-image:url(http://placekitten.com/g/200/200)"></div>*/
-    /* make it responsive */
-    max-width: 100%;
-    width:100%;
-    height:auto;
-    display:block;
-    /* div height to be the same as width*/
-    padding-top:100%;
-    
-    /* make it a circle */
-    border-radius:50%;
-    
-    /* Centering on image`s center*/
-    background-position-y: center;
-    background-position-x: center;
-    background-repeat: no-repeat;
-    
-    /* it makes the clue thing, takes smaller dimension to fill div */
-    background-size: cover;
-    
-    /* it is optional, for making this div centered in parent*/
-    margin: 0 auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    }
+
 
     .circle-avatar
     {
@@ -159,4 +146,9 @@ div.circle-avatar{
         -webkit-box-shadow: 0 8px 6px -6px #999;
         -moz-box-shadow: 0 8px 6px -6px #999;
         box-shadow: 0 8px 6px -6px #999;
+    }
+
+    .btn-success{
+        background-color: rgb(41,154,11)!important; // Old browsers
+@include filter-gradient(#299a0b, #299a0b, vertical)
     }
