@@ -74,8 +74,23 @@ header, footer.container-fluid{
     background-color: rgb(255,48,25); // Old browsers
 @include filter-gradient(#ff3019, #cf0404, vertical);
 
+.box2{
+    width: 120px;
+    min-height: 120px;
+    max-height: auto;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+}
 
+}
 
+.card-img-top{
+    
+        max-width: 286px;
+        min-width: 286px;
+        max-height:250px;
+        min-height: 250px;
 }
 
 section > p.text-center {
